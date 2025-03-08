@@ -1,5 +1,10 @@
-package go_say_hello
+package update
 
 func SayHello () string {
-	return "Hello"
+	name := "naufal"
+	for i := 0; i < 10; i++ {
+		println("Hello", name)
+	}
+	return "Hello" + name
 }
+
